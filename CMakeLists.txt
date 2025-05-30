@@ -60,16 +60,6 @@ target_compile_options(${PROJECT_NAME} PRIVATE
     -DF_CPU=16000000UL
 )
 
-
-
-
-
-
-
-
-
-
-
 # Post-build step to generate HEX file using avr-objcopy
 add_custom_command(TARGET ArduinoAVR POST_BUILD
     COMMAND avr-objcopy 
