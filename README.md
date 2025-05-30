@@ -4,15 +4,15 @@
 
 ## Struktur Proyek
 ```
-ArduinoAVR/
-├── CMakeLists.txt              # File konfigurasi utama CMake
-├── src/                        # Sumber kode utama proyek
-│   ├── main.cpp                # File utama aplikasi (misalnya, loop() dan setup())
-│   ├── ArduinoBahasa.h         # Header untuk pustaka kustom Anda
-│   └── ArduinoBahasa.cpp       # Implementasi pustaka kustom Anda
-├── examples/                   # Contoh penggunaan pustaka atau fitur
-│   └── KodeArduino.cpp         # Contoh kode spesifik untuk Arduino
-└── build/                      # Direktori untuk file build (dibuat oleh CMake, biasanya kosong awalnya)
+ArduinoBahasa/
+├── CMakeLists.txt              
+├── src/                        
+│   ├── main.cpp                
+│   ├── ArduinoBahasa.h         
+│   └── ArduinoBahasa.cpp       
+├── examples/                   
+│   └── KodeArduino.cpp         
+└── build/                      
 
 ```
 
