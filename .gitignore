@@ -6,6 +6,7 @@ CMakePresets.json
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+/src/main.cpp
 
 # Executables
 *.exe
@@ -18,5 +19,6 @@ cmake_install.cmake
 # Editor-specific files (optional, add as needed)
 .vscode/
 .idea/
+.git/
 *.swp
 *~
