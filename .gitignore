@@ -6,7 +6,6 @@ CMakePresets.json
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-/src/main.cpp
 
 # Executables
 *.exe
