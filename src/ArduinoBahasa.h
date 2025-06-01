@@ -1,3 +1,10 @@
+/**
+ * @file ArduinoBahasaCore.h
+ * @brief Header untuk library wrapper Arduino dalam Bahasa Indonesia.
+ *
+ * Library ini menyediakan fungsi-fungsi dasar Arduino dengan nama-nama dalam
+ * Bahasa Indonesia untuk mempermudah pemrograman bagi penutur Bahasa Indonesia.
+ */
 #ifndef ARDUINO_BAHASA_H
 #define ARDUINO_BAHASA_H
 
@@ -50,6 +57,13 @@ void aturDigital(uint8_t pin, uint8_t nilai);
  * @return Nilai digital yang dibaca (HIGH atau LOW).
  */
 int bacaDigital(uint8_t pin);
+
+int aturAnalog(uint8_t pin, uint8_t nilai);
+
+int bacaAnalog(uint8_t pin);
+int mulaiSerial(long kecepatan);
+int cetakSerial(int nilai);
+int cetakSerialln(int nilai);
 
 // Konstant
 namespace Konstanta {
