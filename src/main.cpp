@@ -1,6 +1,6 @@
 #include "KodeArduino.cpp"
 
-void setup() { konfigurasi_program(); }
+void setup() { pengaturan(); }
 
 void loop() {}
 

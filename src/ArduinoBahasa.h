@@ -58,10 +58,9 @@ void aturDigital(uint8_t pin, uint8_t nilai);
  */
 int bacaDigital(uint8_t pin);
 
-int aturAnalog(uint8_t pin, uint8_t nilai);
-
+void aturAnalog(uint8_t pin, uint8_t nilai);
 int bacaAnalog(uint8_t pin);
-int mulaiSerial(long kecepatan);
+void mulaiSerial(long kecepatan);
 int cetakSerial(int nilai);
 int cetakSerialln(int nilai);
 

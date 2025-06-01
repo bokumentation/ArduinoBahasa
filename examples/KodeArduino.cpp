@@ -2,12 +2,12 @@
 using namespace ArduinoBahasa;
 using namespace ArduinoBahasa::Konstanta;
 
-void konfigurasi_program() {
+void pengaturan() {
   // 1. Mengatur MODE pin 13 atau LED_BUILTIN sebagai KELUARAN
   aturPinMode(LED_BUILTIN, KELUARAN);
 }
 
-void ulangi_program() {
+void perulangan() {
   // 1. Mengatur pin 13 atau LED_BUILTIN menyala
   aturDigital(LED_BUILTIN, NYALA);
   // 2. Memberikan jeda 1 detik
